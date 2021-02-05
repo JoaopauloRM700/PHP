@@ -59,6 +59,37 @@
 
     /*-------------------CONDIÇÕES----------------------------*/
 
-    
+    /*if ($var1 == $var2){
 
+        
+    }
+
+    else{
+
+    }*/
+
+    /*-------------------LOOP----------------------------*/
+
+
+    for( $contador = 0 ; $contador<10 ;$contador++ ){
+    
+        echo 'Ola Mundo';
+        echo '<br/>';
+        echo $contador;
+        echo '<hr>';
+    
+    }
+
+    $count = 0;
+
+    while($count < 10){
+
+        echo 'hello';
+        echo '<hr>';
+
+        $count+=1;
+
+
+    }
+    
 ?>
