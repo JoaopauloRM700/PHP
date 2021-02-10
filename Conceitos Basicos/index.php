@@ -91,5 +91,32 @@
 
 
     }
+
+    /*-------------------Percorrer array----------------------------*/
+
+    $lista = array('nome1', 'nome2' , 'nome3', 'nome4', 'nome5', 'nome6');
+
+    foreach ($lista as $key => $value) {
+        echo $key;
+        echo '=>';
+        echo $value;
+    }
     
+    $total = count($lista);
+
+    for ($i = 0; $i < $total ; $i++){
+
+        echo $lista[$i];
+
+    }
+
+    /*------------------array multidimencionais ----------------------------*/
+
+    $listaDeNomes[0] = array('1','2','3'); 
+    $listaDeNumeros[1] = array('Jao','nome3','nome2');
+    
+    echo $listaDeNomes[0][0];
+
+    $varArray[][] = '';
+    $lista[] = '';
 ?>
