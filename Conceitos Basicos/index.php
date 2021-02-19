@@ -88,8 +88,28 @@
         echo '<hr>';
 
         $count+=1;
-
-
     }
-    
+
+    do{
+
+        echo 'ola mundo';
+        echo '<hr>';
+
+        $count++;
+
+    }while($count<10);
+
+
+    /*-------------------ARRAYS MULTIDIMENCIONAIS---------------------------*/
+
+    $cars = array (
+        array("Volvo",22,18),
+        array("BMW",15,13),
+        array("Saab",5,2),
+        array("Land Rover",17,15)
+      );
+
+    /*-------------------Sleep---------------------------*/
+
+    sleep(3);
 ?>
